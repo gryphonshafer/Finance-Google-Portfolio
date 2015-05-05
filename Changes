@@ -1,6 +1,8 @@
 Revision history for Finance::Google::Portfolio
 
 {{$NEXT}}
+
+1.02      2015-05-05 11:37:56-07:00 America/Los_Angeles
         - Remove need for bindings to Perl v5.20
 
 1.01      2015-05-05 11:23:03-07:00 America/Los_Angeles
