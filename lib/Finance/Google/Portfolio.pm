@@ -1,7 +1,9 @@
 package Finance::Google::Portfolio;
 # ABSTRACT: Manipulate Google Finance portfolios a little
 
-use Modern::Perl '2015';
+use strict;
+use warnings;
+
 use Moo;
 use namespace::clean;
 use LWP::UserAgent;

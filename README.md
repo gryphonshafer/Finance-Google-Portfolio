@@ -4,7 +4,7 @@ Finance::Google::Portfolio - Manipulate Google Finance portfolios a little
 
 # VERSION
 
-version 1.01
+version 1.02
 
 [![Build Status](https://travis-ci.org/gryphonshafer/Finance-Google-Portfolio.svg)](https://travis-ci.org/gryphonshafer/Finance-Google-Portfolio)
 [![Coverage Status](https://coveralls.io/repos/gryphonshafer/Finance-Google-Portfolio/badge.png)](https://coveralls.io/r/gryphonshafer/Finance-Google-Portfolio)

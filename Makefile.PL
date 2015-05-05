@@ -22,10 +22,11 @@ my %WriteMakefileArgs = (
     "HTML::Form" => 0,
     "JSON::PP" => 0,
     "LWP::UserAgent" => 0,
-    "Modern::Perl" => 0,
     "Moo" => 0,
     "URI" => 0,
-    "namespace::clean" => 0
+    "namespace::clean" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
   "TEST_REQUIRES" => {
     "File::Spec" => 0,
@@ -33,11 +34,9 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0,
     "Test::Most" => 0,
-    "constant" => 0,
-    "strict" => 0,
-    "warnings" => 0
+    "constant" => 0
   },
-  "VERSION" => "1.01",
+  "VERSION" => "1.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -53,7 +52,6 @@ my %FallbackPrereqs = (
   "IPC::Open3" => 0,
   "JSON::PP" => 0,
   "LWP::UserAgent" => 0,
-  "Modern::Perl" => 0,
   "Moo" => 0,
   "Test::More" => 0,
   "Test::Most" => 0,
