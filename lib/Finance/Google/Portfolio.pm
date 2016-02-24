@@ -43,11 +43,11 @@ sub login {
     croak('Must provide "user" and "passwd" values to login() or new()')
         unless ( $self->user and $self->passwd );
 
-    my $form = ( HTML::Form->parse( $self->ua->request(
-        HTTP::Request->new( 'GET', 'https://mail.google.com/tasks/ig' )
-    ) ) )[0];
-
+    my $form = ( HTML::Form->parse(
+        $self->ua->request( HTTP::Request->new( 'GET', 'https://mail.google.com/tasks/ig' ) )
+    ) )[0];
     $form->value( 'Email', $self->user );
+    $form = ( HTML::Form->parse( $self->ua->request( $form->click ) ) )[0];
     $form->value( 'Passwd', $self->passwd );
 
     my $res = $self->ua->request( $form->click );
