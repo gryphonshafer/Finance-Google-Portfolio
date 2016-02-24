@@ -1,6 +1,8 @@
 Revision history for Finance::Google::Portfolio
 
 {{$NEXT}}
+
+1.03      2016-02-23 16:19:34-08:00 America/Los_Angeles
         - Patch to support Google's new two-page web sign-in process
 
 1.02      2015-05-05 11:37:56-07:00 America/Los_Angeles
