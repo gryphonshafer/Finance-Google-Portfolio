@@ -1,6 +1,7 @@
 package Finance::Google::Portfolio;
 # ABSTRACT: Manipulate Google Finance portfolios a little
 
+use 5.008;
 use strict;
 use warnings;
 
