@@ -23,7 +23,9 @@ has json      => ( is => 'ro', default => sub { JSON::PP->new->utf8->allow_barek
 has ua        => (
     is      => 'ro',
     default => sub {
-        my $ua = LWP::UserAgent->new;
+        my $ua = LWP::UserAgent->new(
+            max_redirect => 24,
+        );
         push( @{ $ua->requests_redirectable }, 'POST' );
         $ua->cookie_jar({});
         return $ua;
