@@ -265,9 +265,7 @@ You can also look for additional information at:
 
 =for :list
 * L<GitHub|https://github.com/gryphonshafer/Finance-Google-Portfolio>
-* L<CPAN|http://search.cpan.org/dist/Finance-Google-Portfolio>
 * L<MetaCPAN|https://metacpan.org/pod/Finance::Google::Portfolio>
-* L<AnnoCPAN|http://annocpan.org/dist/Finance-Google-Portfolio>
 * L<Travis CI|https://travis-ci.org/gryphonshafer/Finance-Google-Portfolio>
 * L<Coveralls|https://coveralls.io/r/gryphonshafer/Finance-Google-Portfolio>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Finance-Google-Portfolio>
