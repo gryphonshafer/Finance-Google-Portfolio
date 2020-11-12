@@ -4,10 +4,10 @@ Finance::Google::Portfolio - Manipulate Google Finance portfolios a little
 
 # VERSION
 
-version 1.04
+version 1.05
 
-[![Build Status](https://travis-ci.org/gryphonshafer/Finance-Google-Portfolio.svg)](https://travis-ci.org/gryphonshafer/Finance-Google-Portfolio)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Finance-Google-Portfolio/badge.png)](https://coveralls.io/r/gryphonshafer/Finance-Google-Portfolio)
+[![build](https://github.com/gryphonshafer/Finance-Google-Portfolio/workflows/build/badge.svg)](https://github.com/gryphonshafer/Finance-Google-Portfolio/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio)
 
 # SYNOPSIS
 
@@ -69,8 +69,8 @@ then attempts to authenticate the user and start up a session.
     $fgp->login( user => 'user', passwd => 'passwd' );
 
 The method returns a reference to the object from which the call was made. And
-please note that the authentication takes place via a simple [LWP::UserAgent](https://metacpan.org/pod/LWP::UserAgent)
-scrape of a web form. For this to work, [LWP::Protocol::https](https://metacpan.org/pod/LWP::Protocol::https) must be
+please note that the authentication takes place via a simple [LWP::UserAgent](https://metacpan.org/pod/LWP%3A%3AUserAgent)
+scrape of a web form. For this to work, [LWP::Protocol::https](https://metacpan.org/pod/LWP%3A%3AProtocol%3A%3Ahttps) must be
 installed and SSL support must be available.
 
 ## portfolio
@@ -125,11 +125,9 @@ want removed.
 You can also look for additional information at:
 
 - [GitHub](https://github.com/gryphonshafer/Finance-Google-Portfolio)
-- [CPAN](http://search.cpan.org/dist/Finance-Google-Portfolio)
 - [MetaCPAN](https://metacpan.org/pod/Finance::Google::Portfolio)
-- [AnnoCPAN](http://annocpan.org/dist/Finance-Google-Portfolio)
-- [Travis CI](https://travis-ci.org/gryphonshafer/Finance-Google-Portfolio)
-- [Coveralls](https://coveralls.io/r/gryphonshafer/Finance-Google-Portfolio)
+- [GitHub Actions](https://github.com/gryphonshafer/Finance-Google-Portfolio/actions)
+- [Codecov](https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio)
 - [CPANTS](http://cpants.cpanauthors.org/dist/Finance-Google-Portfolio)
 - [CPAN Testers](http://www.cpantesters.org/distro/G/Finance-Google-Portfolio.html)
 
@@ -139,7 +137,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2018 by Gryphon Shafer.
+This software is copyright (c) 2021 by Gryphon Shafer.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
