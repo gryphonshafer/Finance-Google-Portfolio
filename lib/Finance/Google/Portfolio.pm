@@ -143,8 +143,8 @@ __END__
 =begin :badges
 
 =for markdown
-[![Build Status](https://travis-ci.org/gryphonshafer/Finance-Google-Portfolio.svg)](https://travis-ci.org/gryphonshafer/Finance-Google-Portfolio)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Finance-Google-Portfolio/badge.png)](https://coveralls.io/r/gryphonshafer/Finance-Google-Portfolio)
+[![build](https://github.com/gryphonshafer/Finance-Google-Portfolio/workflows/build/badge.svg)](https://github.com/gryphonshafer/Finance-Google-Portfolio/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio)
 
 =end :badges
 
@@ -266,8 +266,8 @@ You can also look for additional information at:
 =for :list
 * L<GitHub|https://github.com/gryphonshafer/Finance-Google-Portfolio>
 * L<MetaCPAN|https://metacpan.org/pod/Finance::Google::Portfolio>
-* L<Travis CI|https://travis-ci.org/gryphonshafer/Finance-Google-Portfolio>
-* L<Coveralls|https://coveralls.io/r/gryphonshafer/Finance-Google-Portfolio>
+* L<GitHub Actions|https://github.com/gryphonshafer/Finance-Google-Portfolio/actions>
+* L<Codecov|https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Finance-Google-Portfolio>
 * L<CPAN Testers|http://www.cpantesters.org/distro/G/Finance-Google-Portfolio.html>
 
