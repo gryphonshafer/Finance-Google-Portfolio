@@ -6,7 +6,7 @@ Finance::Google::Portfolio - Manipulate Google Finance portfolios a little
 
 version 1.05
 
-[![build](https://github.com/gryphonshafer/Finance-Google-Portfolio/workflows/build/badge.svg)](https://github.com/gryphonshafer/Finance-Google-Portfolio/actions?query=workflow%3Abuild)
+[![test](https://github.com/gryphonshafer/Finance-Google-Portfolio/workflows/test/badge.svg)](https://github.com/gryphonshafer/Finance-Google-Portfolio/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio)
 
 # SYNOPSIS
