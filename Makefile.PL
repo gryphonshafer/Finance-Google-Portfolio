@@ -13,7 +13,7 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => 0
   },
   "DISTNAME" => "Finance-Google-Portfolio",
-  "LICENSE" => "perl",
+  "LICENSE" => "artistic_2",
   "MIN_PERL_VERSION" => "5.008",
   "NAME" => "Finance::Google::Portfolio",
   "PREREQ_PM" => {
