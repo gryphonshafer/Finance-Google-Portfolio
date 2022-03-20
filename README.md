@@ -4,7 +4,7 @@ Finance::Google::Portfolio - Manipulate Google Finance portfolios a little
 
 # VERSION
 
-version 1.05
+version 1.06
 
 [![test](https://github.com/gryphonshafer/Finance-Google-Portfolio/workflows/test/badge.svg)](https://github.com/gryphonshafer/Finance-Google-Portfolio/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Finance-Google-Portfolio)
@@ -137,7 +137,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2015-2021 by Gryphon Shafer.
+This software is Copyright (c) 2015-2050 by Gryphon Shafer.
 
 This is free software, licensed under:
 
