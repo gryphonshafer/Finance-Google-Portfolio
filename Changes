@@ -1,6 +1,7 @@
 Revision history for Finance::Google::Portfolio
 
 {{$NEXT}}
+        - Add security policy as per CPANSec recommendation
 
 1.07      2025-02-13 13:32:17-08:00 America/Los_Angeles
         - Perl minimum version align
